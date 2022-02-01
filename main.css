@@ -2,5 +2,10 @@
 *::after,
 *::before {
     box-sizing: border-box;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, rgb(222, 203, 164), rgb(62, 81, 81));
+
 }
