@@ -101,3 +101,24 @@ body {
         border: none;
     }
 }
+
+/* ipad mini portrait*/
+@media only screen and (width:768px) { 
+    .clock {
+        width: 70%;
+    }
+
+    .number {
+        font-size: 2rem;
+    }
+}
+/* ipad mini landscape*/
+@media only screen and (width:1024px) {
+    .clock {
+        width: 70%;
+    }
+
+    .number {
+        font-size: 3rem;
+    }
+}
