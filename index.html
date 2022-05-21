@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clock</title>
-    <script defer src="index.js"></script>
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" defer>
-    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="clock">
-        <div class="hand hour" data-hour-hand></div>
-        <div class="hand minute" data-minute-hand></div>
-        <div class="hand second" data-second-hand></div>
-        <div class="number number1">1</div>
-        <div class="number number2">2</div>
-        <div class="number number3">3</div>
-        <div class="number number4">4</div>
-        <div class="number number5">5</div>
-        <div class="number number6">6</div>
-        <div class="number number7">7</div>
-        <div class="number number8">8</div>
-        <div class="number number9">9</div>
-        <div class="number number10">10</div>
-        <div class="number number11">11</div>
-        <div class="number number12">12</div>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>clock</title>
+        <script defer src="index.js"></script>
+        <link rel="stylesheet" href="main.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" defer />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAEIElEQVRoge3ay49URRQG8N/IwDTxATNDDy4lPuIoInuCrtRBSBzdobiD4AYh6FbZmhA2JpO49z8wUYImIIoCgvjAOMwgxogSAROixJERtV1U3dyL9PT0vV3dsOBLbqq76tR3zrn1OlV1uYWbC30JuYbwGNbgIdyLEdwey//AeXyPb3EIH+FSQhsqo4YX8T7+QaPk8zf2YRMGemw7WIxXcK5g1BXsx2sYxygGsTA+gzFvHK/jQKyT1f8ZO4WX0xOsx5mCAcewGUsqcC3FFhwv8H2HdUksnQM1vFVQ+DmeTMg/hi8K/BO60Dp3C4Y3hEG7DQvarHsUh9uUXYDtmJG39vJSlrbACqG5G5jEypL1szdcBqswFeudjjZ0hHqB8DMsq8BRxRHC5HAo1j0j9IpKqMm706fy9aAsqjoi6jwi72aVxkw2sCeFxa4qOnEEhuW9YqJs5fXygV12TPwfnTpCGDPZBDDWbqXF8nViW4cGkMYR2CEf/G11sVfl60S7U2wrpHKkH19Grh3zCQ8IoUIDTyRQTjpH4OnIdc48rbJJPkOkQkpH+uQz6fOtBD+IQpsTKSatI7A18u2dS2BICKuvqBYAzoXUjgxiFlcV7LytIPC4MLg/wW8JFafGJWGR7Bc2crjWkTUx/bCHRlXFgZiuzTKKjozG9KuemVMdmY0PZhlFR+6P6elEyhZiT+H/7piXAtMxfaBZ4a/CoBxOpGyP6/fouxNxL4t8F5sVzsbCRYmUXXS9IxcScQ/IzwlwbddKjT+b5P3VLWVFRy7H9M4EvHX82yT/7QTc5DZeblY4LTTXaLPCEhjBycj1A34U4rc3pOu2D0f+U80K342Fz3SgoI6v5RuyytvTefBc1PFOllHsWpMxfbQi+YhwQPcIvhEihV8qcs2HVTFt2iLjgpf7KxD3qiUyHIy6NjQrHJQHjUtLkBbHxMn4v5sYkgeNd80ltC8atKUE8TG9cwJeivreayX0QhQ6XoL4cJTvhRN9OCHYuLGV4AB+ioJPdd+u0tgg2HZWG9cQO6PwCWkOH1KhX4h6G3i5nQo1+Vnv9u7ZVRrZC55S4lJoXaw0I5+zbyRWC7FbQ4WrjAn5G0gV2ldBXdgjNfBmFYKafGo9ovohdie4Q7hfacS08j1jXQgDsmuFegrr2sSQcBCSXcd1fOGzQt60U6rHYmWwuqBzGvekIl4u72YzwtlrfyryAvqF2Skb2Ed1YaGtySeAhnCgnOr2tU+4ysjWiWxgd/XufUze7Nmp/VYh6CyLISF2ysKOrCulvC1uiZrQvbJwpiFEpAexC88Ku7hhYVe4KP5eKWyKdkXZ2UL9s8KKfUO+gBgQTsX3CluAsp9wXBV2pht16EDKj2qWCGexa4V9/33CdF08KLggTKWn8LHQKr8ntOEWbhr8B/K2PIOVe2Z9AAAAAElFTkSuQmCC"
+        />
+    </head>
+    <body>
+        <div class="clock">
+            <div class="hand hour" data-hour-hand></div>
+            <div class="hand minute" data-minute-hand></div>
+            <div class="hand second" data-second-hand></div>
+            <div class="number number1">1</div>
+            <div class="number number2">2</div>
+            <div class="number number3">3</div>
+            <div class="number number4">4</div>
+            <div class="number number5">5</div>
+            <div class="number number6">6</div>
+            <div class="number number7">7</div>
+            <div class="number number8">8</div>
+            <div class="number number9">9</div>
+            <div class="number number10">10</div>
+            <div class="number number11">11</div>
+            <div class="number number12">12</div>
+        </div>
+    </body>
 </html>
